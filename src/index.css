@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  width: 730px;
+  height: 515px;
+  border-radius: 10px 0 0 10px;
+}
+.page-two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  width: 730px;
+  height: 515px;
+}
+.page-three {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  width: 703px;
+  height: 515px;
+  border-radius: 0 10px 10px 0;
+}
+img {
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.tittle {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-left: 35px;
+  font-weight: 700;
+}
+.context {
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 17px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 74px;
+  margin-left: 34px;
+  padding: 14px;
+  width: 160px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.page-three .btn-three {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 50px;
+  margin-left: 34px;
+  padding: 14px;
+  width: 160px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.one {
+  color: hsl(31, 77%, 52%);
+}
+.two {
+  color: hsl(184, 100%, 22%);
+}
+.three {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover{
+    color:  hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%) ;
+    border: solid 1px;
+}
+.btn-three:hover{
+    color:  hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%) ;
+    border: solid 1px;
+}
+.one:hover {
+    background-color: hsl(31, 77%, 52%) ;
+}
+.two:hover {
+    background-color:hsl(184, 100%, 22%);
+}
+.three:hover{
+    background-color:hsl(179, 100%, 13%) ;
+}
+@media (max-width: 1200px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page-one{
+        border-radius: 10px 10px 0px 0;
+    }
+    .page-three{
+        border-radius: 0 0px 10px 10px;
+    }
+}
